@@ -40,6 +40,7 @@ int main() {
 	// remove temp file
 	//remove(TEMPFILE);
 
+	//fp = fopen(FILENAME, "r");
 	fp = fopen(TEMPFILE, "r");
 
 	if (fp == NULL) {
